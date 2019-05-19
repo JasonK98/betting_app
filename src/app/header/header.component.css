@@ -1,0 +1,15 @@
+mat-toolbar {
+    background-color: #00BFFF;
+}
+
+.header-icon {
+    color: #8B0000;
+    margin-left: 5px;
+    font-size: 50px;
+}
+
+.fill-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }
