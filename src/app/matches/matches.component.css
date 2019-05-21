@@ -1,0 +1,29 @@
+.section-header {
+    border: 2px solid rebeccapurple;
+    border-left: none;
+    border-radius: 5px;
+}
+
+.section-date {
+    margin-top: 30px;
+}
+
+.mat-tab-label {
+    font-weight: 600;
+    color: slategrey;
+}
+
+mat-card {
+    margin-top: 5px;
+    border: 8px solid rebeccapurple;
+}
+
+mat-card-title {
+    margin-left: 5px;
+}
+
+mat-card-subtitle {
+    font-weight: bolder;
+    color: slategrey;
+    margin-left: 15px;
+}

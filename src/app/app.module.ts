@@ -8,16 +8,22 @@ import { HeaderComponent } from './header/header.component';
 
 // Third Party Modules
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatchesComponent } from './matches/matches.component';
+import { MatCardModule } from '@angular/material/card';
+import { MatTabsModule } from '@angular/material/tabs';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    MatchesComponent
   ],
   imports: [
     BrowserModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatCardModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
